@@ -1,6 +1,10 @@
+import React from 'react';
 function Hobbies() {
     return (
-        <h1>Hobbies</h1>
+        <div>
+            <h1>Hobbies</h1>
+            <p>Add hobbies content.</p>
+        </div>
     )
 }
 

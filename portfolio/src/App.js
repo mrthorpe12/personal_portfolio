@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+
 import About from './components/About';
 import Education from './components/Education';
 import Work from './components/Work';
 import Hobbies from './components/Hobbies';
+import Navigation from './components/Navigation';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
       <main>
-        <Navbar />
-        <About />
-        <Education />
-        <Work />
-        <Hobbies />
+        <Navigation />
+        <Routes>
+          <Route path="about" element={<About />} />
+          <Route path="education" element={<Education />} />
+          <Route path="work" element={<Work />} />
+          <Route path="hobbies" element={<Hobbies />} />
+          <Route path="home" element={<Home />} />
+        </Routes>
       </main>
     </div>
   );

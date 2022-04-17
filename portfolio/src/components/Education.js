@@ -1,6 +1,10 @@
+import React from 'react';
 function Education() {
     return (
-        <h1>Education</h1>
+        <div>
+            <h1>Education</h1>
+            <p>Add education content.</p>
+        </div>
     )
 }
 

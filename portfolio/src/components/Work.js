@@ -1,6 +1,10 @@
+import React from 'react';
 function Work() {
     return (
-        <h1>Work History</h1>
+        <div>
+            <h1>Work History</h1>
+            <p>Add work content.</p>
+        </div>
     )
 }
 
