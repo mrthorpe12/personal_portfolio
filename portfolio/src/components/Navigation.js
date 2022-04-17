@@ -19,6 +19,12 @@ export default class Navigation extends Component {
             <LinkContainer to="education">
               <Nav.Link>Education</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="work">
+              <Nav.Link>Work</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="hobbies">
+              <Nav.Link>Hobbies and Interests</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
