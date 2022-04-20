@@ -3,6 +3,7 @@ function Work() {
     return (
         <div>
             <h1>Work History</h1>
+            <p><strong>"No man goes before his time - unless the boss leaves early."</strong> - Groucho Marx</p>
             <h2>Software Engineer, University of Michigan Transportation Research Institute</h2>
             <p>Developed traffic crash analysis datasets using Python/XML</p>
             <p>Built process for generating PDF traffic crash analyses using Python</p>

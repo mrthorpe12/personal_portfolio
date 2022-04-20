@@ -3,6 +3,7 @@ function Hobbies() {
     return (
         <div>
             <h1>Hobbies</h1>
+            <p><strong>"I don't have hobbies; hobbies cost money. Interests are quite free."</strong> - George Carlin</p>
             <h2>Travel</h2>
             <p>I've visited most of the contiguous U.S. and have been to Spain, France, Italy, and the UK. At some
                 point in the near future, I'd like to travel to Russia, since I studied Russian as an undergrad!

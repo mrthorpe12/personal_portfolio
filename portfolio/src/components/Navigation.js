@@ -1,30 +1,12 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Routes, Route, Link } from 'react-router-dom';
-
-import Background from './Background';
-import PersonalProjects from './PersonalProjects';
-import TeamProjects from './TeamProjects';
-import Contact from './Contact';
-
-import Graduate from './Graduate';
-import Undergrad from './Undergrad';
-import Secondary from './Secondary';
+import { Link } from 'react-router-dom';
 
 export default class Navigation extends Component {
   render() {
     return (
       <div>
-        <Routes>
-          <Route path='background' element={<Background />} />
-          <Route path='personal' element={<PersonalProjects />} />
-          <Route path='team' element={<TeamProjects />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='graduate' element={<Graduate />} />
-          <Route path='undergrad' element={<Undergrad />} />
-          <Route path='secondary' element={<Secondary />} />
-        </Routes>
         <Navbar bg="light" expand="lg">
           {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

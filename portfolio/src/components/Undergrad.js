@@ -4,6 +4,7 @@ const Undergrad = () => {
     return (
         <div>
             <h1>University of Wisconsin - Madison</h1>
+            <p><strong>"Everybody is ignorant, only on different subjects."</strong> - Will Rogers</p>
             <h2>CS 200: Programming I</h2>
             <p>Wrote and tested basic programs using Java</p>
             <h2>LIS 351: Intro to Digital Information</h2>

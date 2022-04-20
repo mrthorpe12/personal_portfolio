@@ -4,6 +4,7 @@ const Graduate = () => {
     return (
         <div>
             <h1>University of Michigan - Ann Arbor</h1>
+            <p><strong>"Everybody is ignorant, only on different subjects."</strong> - Will Rogers</p>
             <h2>SI 501: Intro to Contextual Inquiry</h2>
             <p>Covered the basic principles of contextual inquiry and consulting</p>
             <p>Worked as part of student-led team with real-world client based in Detroit, Michigan. Analyzed client's
