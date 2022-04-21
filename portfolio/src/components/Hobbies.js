@@ -1,4 +1,13 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
+
+import alley from "../images/sevilla_alley.JPG";
+import belltower from "../images/sevilla_belltower.JPG";
+import buildings from "../images/sevilla_buildings.JPG";
+import carriages from "../images/sevilla_carriages.JPG";
+import fountain from "../images/sevilla_fountain.JPG";
+import peacock from "../images/sevilla_peacock.JPG";
+import plaza from "../images/sevilla_plaza.JPG";
 
 const Hobbies = () => {
     return (
@@ -15,6 +24,37 @@ const Hobbies = () => {
             <p>Favorite city: Sevilla, Spain. Reason: Fascinating culture and awesome people. Sevilla is a great
                 place to
                 experience Spanish culture firsthand, and the area's history is amazing.</p>
+            <Carousel>
+                {/* carousel with images of Sevilla */}
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={alley} alt="Whitewashed alley, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={belltower} alt="Belltower at sunset, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={buildings} alt="Andalusian architecture on city square, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={carriages} alt="Carriages in city square, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={fountain} alt="Fountain in city square, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={peacock} alt="Peacock in city park, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={plaza} alt="City plaza in evening, Sevilla." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
             <h2>Music</h2>
             <p>Played the string bass throughout middle and high school. Was chosen to attend the Missouri
                 All-State

@@ -38,14 +38,21 @@
   }
 }
 
+form input {
+  margin: 10px;
+}
+
 main {
-  /* border: 20px solid red; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 main div {
   grid-column: 2;
+}
+
+h3, p {
+  color: black;
 }
 
 .img-responsive {
@@ -61,7 +68,7 @@ main div {
   width: 1000px;
 }
 
-#map {
+.carousel, #map {
   height: auto;
   width: 800px;
 }
