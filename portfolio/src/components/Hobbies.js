@@ -1,5 +1,6 @@
 import React from 'react';
-function Hobbies() {
+
+const Hobbies = () => {
     return (
         <div>
             <h1>Hobbies</h1>

@@ -1,7 +1,7 @@
 import React from 'react';
 import headshot from "../images/headshot.jpg";
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <h1>Homepage</h1>

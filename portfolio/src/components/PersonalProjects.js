@@ -9,7 +9,9 @@ const Personal = () => {
             {/* insert images */}
             <h2>Front-End Development</h2>
             <p>Below is an example of a travel website I built using HTML/CSS, with some JavaScript functionalities included.</p>
-            {/* insert images/site link */}
+            <a href="https://mrthorpe12.github.io/si539-final-project/">Site Link</a>
+            <p>This semester, I built a website using ReactJS that uses an API to generate a list of rhymes or synonyms based on the user's input.</p>
+            <a href="https://mrthorpe12.github.io/si579-hw5-react/">Site Link</a>
         </div>
     )
 }
