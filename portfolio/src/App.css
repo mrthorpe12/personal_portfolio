@@ -50,7 +50,7 @@ main div {
 
 .img-responsive {
   height: auto;
-  width: 300px;
+  width: 400px;
   border: 2px solid black;
   border-radius: 10px;
   margin: 10px;
@@ -59,4 +59,9 @@ main div {
 #affinity {
   height: auto;
   width: 1000px;
+}
+
+#map {
+  height: auto;
+  width: 800px;
 }
