@@ -39,17 +39,6 @@ const Contact = () => {
                     Submit
                 </button>
             </form>
-            {/* <Form>
-                <Form.Group>
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your name" />
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter your email" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form> */}
         </div>
     )
 }
