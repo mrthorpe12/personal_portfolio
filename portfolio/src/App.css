@@ -58,18 +58,17 @@ h3, p {
 
 .img-responsive {
   height: auto;
-  width: 400px;
+  width: 90%;
   border: 2px solid black;
   border-radius: 10px;
   margin: 10px;
 }
 
-/* #affinity {
-  height: auto;
-  width: 1000px;
-} */
+.headshot {
+  width: 50%;
+}
 
-.carousel, #map {
+/* .carousel, #map {
   height: auto;
   width: 700px;
-}
+} */

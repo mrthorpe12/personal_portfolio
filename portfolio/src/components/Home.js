@@ -16,7 +16,7 @@ const Home = () => {
             </p>
             <p>            <strong>What my favorite food is:</strong> Pho ga (Vietnamese chicken soup)
             </p>
-            <img className='img-responsive' src={headshot} alt="Personal headshot" />
+            <img className='img-responsive headshot' src={headshot} alt="Personal headshot" />
         </div>
     )
 }
