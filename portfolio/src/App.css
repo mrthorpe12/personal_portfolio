@@ -51,5 +51,12 @@ main div {
 .img-responsive {
   height: auto;
   width: 300px;
+  border: 2px solid black;
   border-radius: 10px;
+  margin: 10px;
+}
+
+#affinity {
+  height: auto;
+  width: 1000px;
 }
