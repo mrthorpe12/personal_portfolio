@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .App-logo {
@@ -34,11 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 main {
+  /* border: 20px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main div {
   grid-column: 2;
+}
+
+.img-responsive {
+  height: auto;
+  width: 300px;
+  border-radius: 10px;
 }

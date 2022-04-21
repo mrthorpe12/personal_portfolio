@@ -21,8 +21,8 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <main>
-        <Navigation />
         <Routes>
           <Route path='background' element={<Background />} />
           <Route path='personal' element={<PersonalProjects />} />
