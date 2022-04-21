@@ -1,6 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
+import flowchart from "../images/flowchart.png";
+import interactions from "../images/interactions.jpg";
+
 const Team = () => {
     return (
         <div>
@@ -11,6 +14,14 @@ const Team = () => {
             <p>For SI 582 (intro to interactive design), I worked as part of a student-led team to design a mobile app that would remind users to take periodic breaks while working remotely.  Our team developed rough sketches of how the product ought to look, and then used Figma to create a high-fidelity prototype based on these sketches.</p>
             <Carousel>
                 {/* insert carousel here with wireframes */}
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={flowchart} alt="Prototype flowchart." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className='img-responsive carousel' src={interactions} alt="Interaction map." />
+                    <Carousel.Caption></Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
             <h2>SI 622 Consulting Project</h2>
             <p>This semester, I worked as part of a student-led team to analyze an external client's software platform.  As a team, we conducted user interviews and usability testing in order to determine which of the platform's features needed improvement.</p>
