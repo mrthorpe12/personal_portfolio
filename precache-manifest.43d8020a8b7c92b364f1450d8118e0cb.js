@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "09ccba82ddb4bd71a12e",
-    "url": "/si579-final-project/static/css/main.b58bd871.chunk.css"
+    "revision": "fcb917a0c00c27b5461e",
+    "url": "/si579-final-project/static/css/main.e4f501a2.chunk.css"
   },
   {
-    "revision": "09ccba82ddb4bd71a12e",
-    "url": "/si579-final-project/static/js/main.09ccba82.chunk.js"
+    "revision": "fcb917a0c00c27b5461e",
+    "url": "/si579-final-project/static/js/main.fcb917a0.chunk.js"
   },
   {
-    "revision": "3d7694739b4ac8b7bb36",
-    "url": "/si579-final-project/static/js/1.3d769473.chunk.js"
+    "revision": "e5fed62f2796369ce831",
+    "url": "/si579-final-project/static/js/1.e5fed62f.chunk.js"
   },
   {
-    "revision": "7f6f17dea362962ab468",
-    "url": "/si579-final-project/static/css/2.02bb2494.chunk.css"
+    "revision": "7307b991235b90a7355a",
+    "url": "/si579-final-project/static/css/2.ad9b7cdc.chunk.css"
   },
   {
-    "revision": "7f6f17dea362962ab468",
-    "url": "/si579-final-project/static/js/2.7f6f17de.chunk.js"
+    "revision": "7307b991235b90a7355a",
+    "url": "/si579-final-project/static/js/2.7307b991.chunk.js"
   },
   {
-    "revision": "e9747c69b63183a37b79",
-    "url": "/si579-final-project/static/js/runtime~main.e9747c69.js"
+    "revision": "b870f30683e9a07fcc18",
+    "url": "/si579-final-project/static/js/runtime~main.b870f306.js"
   },
   {
     "revision": "895941b675e31f0d43e1db8f916bb972",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "aa9c42dbf6293bed0a79ed99c471db26",
     "url": "/si579-final-project/static/media/interactions.aa9c42db.jpg"
+  },
+  {
+    "revision": "01bc75622abe3417abc6b65c149872c4",
+    "url": "/si579-final-project/static/media/THORPE_MAXWELL_resume_20220113.01bc7562.pdf"
   },
   {
     "revision": "96ea077c6fe29f0925b085dd74380732",
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "/si579-final-project/static/media/headshot.eb1ef835.jpg"
   },
   {
-    "revision": "f07a96ab4abedca91a71d3ccba6cc9af",
+    "revision": "721b463dec912301b82cc25793661599",
     "url": "/si579-final-project/index.html"
   }
 ];
