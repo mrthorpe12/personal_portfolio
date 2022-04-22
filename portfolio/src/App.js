@@ -21,7 +21,9 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <header>
+        <Navigation />
+      </header>
       <main>
         <Routes>
           <Route path='background' element={<Background />} />
@@ -34,8 +36,12 @@ function App() {
           <Route path="work" element={<Work />} />
           <Route path="hobbies" element={<Hobbies />} />
           <Route path="home" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </main>
+      <footer>
+        <p>&copy; Maxwell Thorpe 2022</p>
+      </footer>
     </div>
   );
 }
