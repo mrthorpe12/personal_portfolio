@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from "react-router-dom";
 
 import Background from './components/Background';
@@ -19,10 +19,21 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 
 function App() {
+  const [backgroundLabel, setBackgroundLabel] = useState('Background Information');
+  const [personalLabel, setPersonalLabel] = useState('Personal Projects');
+  const [teamLabel, setTeamLabel] = useState('Team Projects');
+  const [contactLabel, setContactLabel] = useState('Contact Me');
+  const [graduateLabel, setGraduateLabel] = useState('Graduate');
+  const [undergradLabel, setUndergradLabel] = useState('Undergraduate');
+  const [secondaryLabel, setSecondaryLabel] = useState('Secondary');
+  const [workLabel, setWorkLabel] = useState('Work');
+  const [hobbiesLabel, setHobbiesLabel] = useState('Hobbies & Interests');
+  const [homeLabel, setHomeLabel] = useState('Homepage');
+
   return (
     <div className="App">
       <header>
-        <Navigation />
+        <Navigation backgroundLabel={backgroundLabel} personalLabel={personalLabel} teamLabel={teamLabel} contactLabel={contactLabel} graduateLabel={graduateLabel} undergradLabel={undergradLabel} secondaryLabel={secondaryLabel} workLabel={workLabel} hobbiesLabel={hobbiesLabel} homeLabel={homeLabel} />
       </header>
       <main>
         <Routes>
