@@ -1,6 +1,6 @@
 import React from 'react';
 import { ListGroup } from 'react-bootstrap';
-import resume from "../docs/THORPE_MAXWELL_resume_20220113.pdf";
+import resume from "../docs/THORPE_MAXWELL_resume_20220919.pdf";
 
 const Work = () => {
     return (

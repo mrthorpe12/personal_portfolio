@@ -78,7 +78,7 @@ const Graduate = () => {
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item>
+                <Accordion.Item eventKey="8">
                     <Accordion.Header>SI 507: Intermediate Programming</Accordion.Header>
                     <Accordion.Body>
                         <ul>
@@ -89,7 +89,7 @@ const Graduate = () => {
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item>
+                <Accordion.Item eventKey="9">
                     <Accordion.Header>SI 564: SQL & Databases</Accordion.Header>
                     <Accordion.Body>
                         <ul>
@@ -100,7 +100,7 @@ const Graduate = () => {
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item>
+                <Accordion.Item eventKey="10">
                     <Accordion.Header>SI 664: Database Application Design</Accordion.Header>
                     <Accordion.Body>
                         <ul>
@@ -111,7 +111,7 @@ const Graduate = () => {
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item>
+                <Accordion.Item eventKey="11">
                     <Accordion.Header>SI 669: Developing Mobile Experiences</Accordion.Header>
                     <Accordion.Body>
                         <ul>
