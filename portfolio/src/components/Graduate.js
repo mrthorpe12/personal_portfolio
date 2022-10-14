@@ -77,7 +77,51 @@ const Graduate = () => {
                                 system/service.</li>
                         </ul>
                     </Accordion.Body>
-                </Accordion.Item></Accordion>
+                </Accordion.Item>
+                <Accordion.Item>
+                    <Accordion.Header>SI 507: Intermediate Programming</Accordion.Header>
+                    <Accordion.Body>
+                        <ul>
+                            <li>
+                                Further developing core programming and software development skills, including the following: Applying basic algorithms and data structures,
+                                accessing and processing data, debugging, testing, incorporating external libraries, and maintaining a functional development environment.
+                            </li>
+                        </ul>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item>
+                    <Accordion.Header>SI 564: SQL & Databases</Accordion.Header>
+                    <Accordion.Body>
+                        <ul>
+                            <li>
+                                Studying basics of databases and SQL.  Course subjects include the following: data modelling, SQL Syntax, evaluation of different database systems for suitability, evaluation
+                                of database performance, and use of a database in a multi-step analysis process.
+                            </li>
+                        </ul>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item>
+                    <Accordion.Header>SI 664: Database Application Design</Accordion.Header>
+                    <Accordion.Body>
+                        <ul>
+                            <li>
+                                Studying basics of database management systems (DBMS).  Course covers theoretical and practical aspects of DBMS, including database design, use,
+                                and implementation using SQL.  Course taught using Django/MySQL.
+                            </li>
+                        </ul>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item>
+                    <Accordion.Header>SI 669: Developing Mobile Experiences</Accordion.Header>
+                    <Accordion.Body>
+                        <ul>
+                            <li>
+                                Building mobile applications using React Native.  Course subjects include standard testing, monitoring, and debugging.
+                            </li>
+                        </ul>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
         </div>
     )
 }

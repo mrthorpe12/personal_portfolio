@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <h1>Homepage</h1>
-            <p>Hey! Welcome to my personal page. My name is Max and I'm a first-year student at the <a
+            <p>Hey! Welcome to my personal page. My name is Max and I'm a second-year student at the <a
                 href="http://si.umich.edu">University of Michigan School of Information (UMSI).</a> I've always been
                 fascinated by
                 data science and would describe myself as eager to learn. Click the links at the top of the page to see my
