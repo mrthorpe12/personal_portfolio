@@ -8,13 +8,26 @@ const Work = () => {
             <h1>Work History</h1>
             <p><strong>"No man goes before his time - unless the boss leaves early."</strong> - Groucho Marx</p>
             <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+            <h4>Data Analyst, Socket Telecom</h4>
+            <ListGroup>
+                <ListGroup.Item>Worked as part of team to map and design fiber optic networks for rural customers throughout mid-Missouri.  Used relational
+                    database management system to maintain/edit proprietary fiber optic maps.
+                </ListGroup.Item>
+                <ListGroup.Item>Wrote, tested, and implemented data cleaning process for splitting PDF maps of service areas into
+                    individual files and assigning files to corresponding shapefiles based on unique identifiers. Used
+                    Pytesseract and Numpy libraries to read contents of each PDF before assigning PDF to its respective
+                    shapefile within Arc geodatabase.
+                </ListGroup.Item>
+                <ListGroup.Item>Collaborated on front-end development task for improving internal payment order process. Used PHP
+                    within XAMPP environment.</ListGroup.Item>
+            </ListGroup>
             <h4>Software Engineer, University of Michigan Transportation Research Institute</h4>
             <ListGroup>
-                <ListGroup.Item>Developed traffic crash analysis datasets using Python/XML</ListGroup.Item>
-                <ListGroup.Item>Built process for generating PDF traffic crash analyses using Python</ListGroup.Item>
+                <ListGroup.Item>Used CodeIgniter platform to build and test front-end features for Michigan Traffic Crash Facts (MTCF) website</ListGroup.Item>
+                <ListGroup.Item>Wrote and tested script for generating PDF traffic crash analyses using Python</ListGroup.Item>
                 <ListGroup.Item><a href="https://www.michigantrafficcrashfacts.org/">Site Link</a></ListGroup.Item>
             </ListGroup>
-            <h4>GIS Developer, UW Traffic Operations and Safety (TOPS) Laboratory</h4>
+            <h4>Front-End Developer, UW Traffic Operations and Safety (TOPS) Laboratory</h4>
             <ListGroup>
                 <ListGroup.Item>Independently developed Java programs for real-time “crash map” of statewide incidents
                 </ListGroup.Item>
