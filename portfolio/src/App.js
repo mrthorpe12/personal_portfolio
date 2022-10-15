@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import Background from './components/Background';
 import PersonalProjects from './components/PersonalProjects';
@@ -36,7 +36,8 @@ function App() {
           <Route path="work" element={<Work />} />
           <Route path="hobbies" element={<Hobbies />} />
           <Route path="home" element={<Home />} />
-          <Route path="" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
       </main>
       <footer>
